@@ -7,12 +7,12 @@ const cart = [
 
 function getTotalPrice(cartArray) {
   // 이곳에 코드를 작성합니다.
-  let total = 0;
+    let total = 0;
 
-  for (let i = 0; i < cartArray.length; i++) {
-    total = total + cartArray[i].price;
+  for(let i = 0; i < cartArray.length; i ++){
+    total += cartArray[i].price;
   }
-  
+
   return total;
 }
 

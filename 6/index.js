@@ -3,10 +3,11 @@ function isLongName(name) {
   // 이곳에 코드를 작성합니다.
   if (name.length >= 5) {
     return true;
-  } else {
-    return false;
   }
-}
+  else {
+    return false;
+  };
+};
 
 console.log(isLongName("김철수")); // false
 console.log(isLongName("김철수바보")); // true

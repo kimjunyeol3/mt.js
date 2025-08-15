@@ -4,12 +4,12 @@ function findMax(numbers) {
   // 이곳에 코드를 작성합니다.
   let max = numbers[0];
 
-  for (let i = 1; i < numbers.length; i++) {
-    if (numbers[i] > max) {
+  for (let i = 1; i < numbers.length; i++){
+    if (max < numbers[i]){
       max = numbers[i];
     }
   }
-  
+
   return max;
 }
 
